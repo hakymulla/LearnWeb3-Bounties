@@ -68,8 +68,8 @@ async function test(chains, wallet, options) {
     const sendTx = await source.contract.sendToMany(destination.name, destination.distributionExecutable, accounts, 'aUSDC', amount,
         {
             // value: BigInt(Math.floor(gasLimit * gasPrice)),
-            value: BigInt(4e17),
-            gasLimit: 3e6
+            value: BigInt(1e18),
+            gasLimit: 9e6
         }
     );
     await sendTx.wait();

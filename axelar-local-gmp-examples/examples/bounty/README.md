@@ -6,6 +6,8 @@ node scripts/test examples/bounty [local|testnet] ${"source-chain"} ${"destinati
 
 ### My Test
 
+###### Development Address: 0x6066484DE209A9db68d09Ce6241C38E27Baa9143
+
 ```bash
 node scripts/test examples/bounty testnet "Moonbeam" "Avalanche" 1 0xECB744a62223dff29be652071974f51Bc8F0C0c6 "Chop life" 
 ```
